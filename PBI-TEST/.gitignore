@@ -1,0 +1,21 @@
+# Power BI local settings and cache
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Ignore all Power BI cache folders
+**/.pbi/
+
+# Power BI files
+*.pbix
+*.abf
+
+# Data files
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.db
+
+# Exception for synthetic security probe
+!**/probe.csv
